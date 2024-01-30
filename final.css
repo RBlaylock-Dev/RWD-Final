@@ -23,6 +23,22 @@ header {
     
 }
 
+h3 {
+    font-family: sans-serif !important;
+}
+
+p {
+    font-family: serif; 
+}
+
+.life {
+    font-family: serif;
+}
+
+ul {
+    font-family: serif;
+}
+
 .column {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -34,8 +50,8 @@ header {
     padding: auto
 }
 
-a :hover {
-    color: white;
+a:hover {
+    color: black !important;
 }
 .about {
     grid-column: 1;
